@@ -15,6 +15,9 @@ export class AppComponent implements OnInit{
     'red', 'blue', 'green', 'yellow', 'pink', 'orange', 'grey'
   ]
 
+  s: string;
+  n: number | null
+
   constructor(private carService: CarsService){}
 
   ngOnInit(){
